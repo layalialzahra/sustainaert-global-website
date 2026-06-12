@@ -65,7 +65,7 @@ export default function Apply() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions.jpg.jpeg"
+            src="/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions.webp"
             alt="Pharmaceutical worker in sterile conditions demonstrating quality certification standards"
             className="w-full h-full object-cover"
             fetchPriority="high"

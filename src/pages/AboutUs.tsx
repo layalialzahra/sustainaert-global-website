@@ -48,7 +48,7 @@ export default function AboutUs() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/landscape-shot-green-hills-val-d-orcia-tuscany-italy-gloomy-sky.jpg.jpeg"
+            src="/landscape-shot-green-hills-val-d-orcia-tuscany-italy-gloomy-sky.webp"
             alt="Sustainable green landscape in Tuscany"
             className="w-full h-full object-cover"
             fetchPriority="high"
@@ -124,7 +124,7 @@ export default function AboutUs() {
                 className="rounded-2xl overflow-hidden shadow-lg"
               >
                 <OptimizedImage
-                  src="/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.jpg.jpeg"
+                  src="/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.webp"
                   alt="Research team examining sustainable agriculture in greenhouse"
                   className="h-64 w-full"
                   aspectRatio="4/3"

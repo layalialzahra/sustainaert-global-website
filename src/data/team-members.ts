@@ -13,13 +13,13 @@ export const teamMembers: TooltipItem[] = [
     name: "Kimberlie Anne Torregoza",
     designation: "Business Executive",
     profileUrl: "https://www.linkedin.com/in/kimberlie-torregoza-5a080a359/",
-    image: "/Kimberlie.jpg"
+    image: "/Kimberlie.webp"
   },
   {
     id: 3,
     name: "Arshad TK",
     designation: "Marketing Specialist",
     profileUrl: "https://www.linkedin.com/in/arshad-tk-1b9772390/",
-    image: "/Arshad.jpg"
+    image: "/Arshad.webp"
   }
 ];

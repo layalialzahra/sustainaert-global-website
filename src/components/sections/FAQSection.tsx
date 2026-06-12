@@ -40,7 +40,7 @@ export default function FAQSection() {
             className="relative overflow-hidden rounded-2xl shadow-lg"
           >
             <OptimizedImage
-              src="/empty-laboratory-workspace-displays-jars-blood-samples-tools-prepared-analysis-clinical.jpg.jpeg"
+              src="/empty-laboratory-workspace-displays-jars-blood-samples-tools-prepared-analysis-clinical.webp"
               alt="Certification laboratory analysis process"
               className="h-48 w-full"
               aspectRatio="3/2"
@@ -61,7 +61,7 @@ export default function FAQSection() {
             className="relative overflow-hidden rounded-2xl shadow-lg"
           >
             <OptimizedImage
-              src="/interior-large-distribution-warehouse-with-shelves-stacked-with-palettes-goods-ready-market.jpg.jpeg"
+              src="/interior-large-distribution-warehouse-with-shelves-stacked-with-palettes-goods-ready-market.webp"
               alt="Industry standards in logistics and distribution"
               className="h-48 w-full"
               aspectRatio="3/2"
@@ -82,7 +82,7 @@ export default function FAQSection() {
             className="relative overflow-hidden rounded-2xl shadow-lg"
           >
             <OptimizedImage
-              src="/shot-wind-turbines-mountains.jpg.jpeg"
+              src="/shot-wind-turbines-mountains.webp"
               alt="Sustainable practices and renewable energy"
               className="h-48 w-full"
               aspectRatio="3/2"

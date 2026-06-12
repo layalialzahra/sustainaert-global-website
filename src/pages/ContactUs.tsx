@@ -45,7 +45,7 @@ export default function ContactUs() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/technologist-food-processing-factory-controlling-process-apple-fruit-selection-production.jpg.jpeg"
+            src="/technologist-food-processing-factory-controlling-process-apple-fruit-selection-production.webp"
             alt="Food processing facility showing quality control and certification environment"
             className="w-full h-full object-cover"
             fetchPriority="high"

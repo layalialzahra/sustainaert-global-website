@@ -9,7 +9,7 @@ import ScrollExpandMedia from '@/components/ui/scroll-expansion-hero';
 import { SectionLoader } from '@/components/ui/skeleton';
 
 const HERO_VIDEO_URL = '/hero_video.mp4';
-const HERO_POSTER_URL = '/landscape-shot-green-hills-val-d-orcia-tuscany-italy-gloomy-sky.jpg.jpeg';
+const HERO_POSTER_URL = '/landscape-shot-green-hills-val-d-orcia-tuscany-italy-gloomy-sky.webp';
 const HERO_EXPANSION_SEEN_KEY = 'sustainacert.heroExpansionSeen';
 
 // Lazy load below-the-fold sections for better initial load performance
@@ -136,7 +136,7 @@ export default function Index() {
               mediaType="video"
               mediaSrc={HERO_VIDEO_URL}
               posterSrc={HERO_POSTER_URL}
-              bgImageSrc="/landscape-shot-green-hills-val-d-orcia-tuscany-italy-gloomy-sky.jpg.jpeg"
+              bgImageSrc="/landscape-shot-green-hills-val-d-orcia-tuscany-italy-gloomy-sky.webp"
               title="GLOBAL STANDARDS TRUSTED CERTIFICATION"
               date="Independent Global Certification Body"
               scrollToExpand="Scroll to Explore Our Services"
@@ -317,7 +317,7 @@ export default function Index() {
                     >
                       <div className="aspect-square rounded-3xl overflow-hidden">
                         <img 
-                          src="/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.jpg.jpeg"
+                          src="/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.webp"
                           alt="Professional research team in modern business environment"
                           className="w-full h-full object-cover"
                           loading="lazy"

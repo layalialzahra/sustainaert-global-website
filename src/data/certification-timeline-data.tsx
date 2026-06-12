@@ -31,7 +31,7 @@ export const certificationTimelineData = [
     content: (
       <div>
         {renderImage(
-          "/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.jpg.jpeg",
+          "/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.webp",
           "Application submission and consultation process"
         )}
         <p className={bodyTextClassName}>
@@ -55,7 +55,7 @@ export const certificationTimelineData = [
     content: (
       <div>
         {renderImage(
-          "/empty-laboratory-workspace-displays-jars-blood-samples-tools-prepared-analysis-clinical.jpg.jpeg",
+          "/empty-laboratory-workspace-displays-jars-blood-samples-tools-prepared-analysis-clinical.webp",
           "Document review and laboratory analysis process"
         )}
         <p className={bodyTextClassName}>
@@ -84,7 +84,7 @@ export const certificationTimelineData = [
     content: (
       <div>
         {renderImage(
-          "/interior-view-steel-factory.jpg.jpeg",
+          "/interior-view-steel-factory.webp",
           "On-site audit at manufacturing facility"
         )}
         <p className={bodyTextClassName}>
@@ -108,7 +108,7 @@ export const certificationTimelineData = [
     content: (
       <div>
         {renderImage(
-          "/pharmacy-industry-factory-man-worker-protective-clothing-sterile-working-conditions-operating-pharmaceutical-equipment.jpg.jpeg",
+          "/pharmacy-industry-factory-man-worker-protective-clothing-sterile-working-conditions-operating-pharmaceutical-equipment.webp",
           "Compliance evaluation and quality control assessment"
         )}
         <p className={bodyTextClassName}>
@@ -132,7 +132,7 @@ export const certificationTimelineData = [
     content: (
       <div>
         {renderImage(
-          "/technologist-food-processing-factory-controlling-process-apple-fruit-selection-production.jpg.jpeg",
+          "/technologist-food-processing-factory-controlling-process-apple-fruit-selection-production.webp",
           "Certification decision and quality approval process"
         )}
         <p className={bodyTextClassName}>
@@ -156,7 +156,7 @@ export const certificationTimelineData = [
     content: (
       <div>
         {renderImage(
-          "/shot-wind-turbines-mountains.jpg.jpeg",
+          "/shot-wind-turbines-mountains.webp",
           "Ongoing surveillance and renewable energy certification monitoring"
         )}
         <p className={bodyTextClassName}>

@@ -22,7 +22,7 @@ export default function Services() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/interior-view-steel-factory.jpg.jpeg"
+            src="/interior-view-steel-factory.webp"
             alt="Modern steel factory interior showing industrial certification environment"
             className="w-full h-full object-cover"
             fetchPriority="high"
@@ -82,9 +82,9 @@ export default function Services() {
                     <div className="relative h-48 overflow-hidden">
                       {(() => {
                         const imageMap = {
-                          0: "/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.jpg.jpeg",
-                          1: "/interior-view-steel-factory.jpg.jpeg",
-                          2: "/technologist-food-processing-factory-controlling-process-apple-fruit-selection-production.jpg.jpeg"
+                          0: "/two-researches-man-woman-examine-greenery-with-tablet-all-white-greenhouse.webp",
+                          1: "/interior-view-steel-factory.webp",
+                          2: "/technologist-food-processing-factory-controlling-process-apple-fruit-selection-production.webp"
                         };
                         return (
                           <OptimizedImage
