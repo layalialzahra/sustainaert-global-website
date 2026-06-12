@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { useState, useEffect, useRef, lazy, Suspense, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -124,6 +125,7 @@ export default function Index() {
 
   return (
     <>
+      <SEO title="Global Standards. Trusted Certification" description="Sustainacert is an independent global certification, inspection, and verification body. ISO certification, organic, GHG verification, social compliance and sustainability audits worldwide." canonical="/" />
       {/* PHASE 1: Scroll Expansion Overlay (fades out after completion) */}
       <AnimatePresence>
         {!expansionComplete && (

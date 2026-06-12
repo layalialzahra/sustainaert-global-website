@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock } from 'lucide-react';
@@ -74,7 +75,14 @@ export default function InsightDetail() {
   }
 
   return (
-    <Layout>
+    <>
+      <SEO
+        title={insight.title}
+        description={insight.excerpt}
+        canonical={`/insights/${insight.slug}`}
+        ogType="article"
+      />
+      <Layout>
       <article className="py-20">
         <div className="container mx-auto px-4 lg:px-8">
           <Link to="/news-blogs" className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary mb-8">

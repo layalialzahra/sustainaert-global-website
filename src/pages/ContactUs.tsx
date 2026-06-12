@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { lazy, Suspense, useEffect, useState } from 'react';
 import type { FormEvent } from 'react';
 import { motion } from 'framer-motion';
@@ -41,7 +42,9 @@ export default function ContactUs() {
   };
 
   return (
-    <Layout>
+    <>
+      <SEO title="Contact Us" description="Get in touch with Sustainacert's global team for certification inquiries, support, and office locations in Dubai and worldwide." canonical="/contact-us" />
+      <Layout>
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img

@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
@@ -16,7 +17,9 @@ import { serviceCategories, featuredServices } from '@/data/services';
 
 export default function Services() {
   return (
-    <Layout>
+    <>
+      <SEO title="Certification Services" description="Explore Sustainacert's comprehensive certification services: ISO management systems, organic certification, GHG carbon verification, social compliance audits, food safety, and more." canonical="/services" />
+      <Layout>
       {/* Hero */}
       <section className="relative py-20 overflow-hidden">
         {/* Background Image */}

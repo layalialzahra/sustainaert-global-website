@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { lazy, Suspense } from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Scale, FileCheck, CheckCircle, Award, Leaf, Globe, Monitor, Lock } from 'lucide-react';
@@ -47,7 +48,9 @@ const whySustainacert = [
 
 export default function QualityPolicy() {
   return (
-    <Layout>
+    <>
+      <SEO title="Quality Policy" description="Read Sustainacert's quality policy and commitment to independence, impartiality, continuous improvement, and excellence in global certification services." canonical="/quality-policy" />
+      <Layout>
       {/* Hero */}
       <section className="py-20 bg-gradient-hero">
         <div className="container mx-auto px-4 lg:px-8">

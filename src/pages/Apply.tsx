@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { motion } from 'framer-motion';
@@ -59,7 +60,9 @@ export default function Apply() {
   };
 
   return (
-    <Layout>
+    <>
+      <SEO title="Apply for Certification" description="Start your certification journey with Sustainacert. Apply online for ISO, sustainability, organic, GHG, and social compliance certification services." canonical="/apply" />
+      <Layout>
       {/* Hero */}
       <section className="relative py-20 overflow-hidden">
         {/* Background Image */}

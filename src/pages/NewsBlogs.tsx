@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Layout from '@/layouts/Layout';
@@ -6,7 +7,9 @@ import { insights, categories } from '@/data/insights';
 
 export default function NewsBlogs() {
   return (
-    <Layout>
+    <>
+      <SEO title="News & Insights" description="Stay informed with the latest certification standards, sustainability trends, carbon reporting, and industry updates from Sustainacert." canonical="/news-blogs" />
+      <Layout>
       <section className="py-20 bg-gradient-hero">
         <div className="container mx-auto px-4 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">

@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { lazy, Suspense } from 'react';
 import { motion } from 'framer-motion';
 import { Target, Eye, CheckCircle, Users, Globe, Award } from 'lucide-react';
@@ -42,7 +43,9 @@ const values = [
 
 export default function AboutUs() {
   return (
-    <Layout>
+    <>
+      <SEO title="About Us" description="Learn about Sustainacert — an independent global certification body committed to integrity, global reach, and excellence in sustainability, ISO, and quality management certification." canonical="/about-us" />
+      <Layout>
       {/* Hero */}
       <section className="relative py-20 overflow-hidden">
         {/* Background Image */}

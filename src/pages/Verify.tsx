@@ -1,3 +1,4 @@
+import SEO from '@/components/SEO';
 import { useState, useEffect, useRef } from 'react';
 import type { FormEvent } from 'react';
 import { motion } from 'framer-motion';
@@ -92,7 +93,9 @@ export default function Verify() {
   };
 
   return (
-    <Layout>
+    <>
+      <SEO title="Verify Certificate" description="Verify the authenticity of a Sustainacert certification. Enter your certificate ID to instantly check validity and status." canonical="/verify" noIndex={true} />
+      <Layout>
       {/* Hero */}
       <section className="py-20 bg-gradient-hero">
         <div className="container mx-auto px-4 lg:px-8">
