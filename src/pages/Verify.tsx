@@ -252,5 +252,6 @@ export default function Verify() {
         </div>
       </section>
     </Layout>
+    </>
   );
 }

@@ -57,6 +57,7 @@ export default function NewsBlogs() {
         </div>
       </section>
     </Layout>
+    </>
   );
 }
 

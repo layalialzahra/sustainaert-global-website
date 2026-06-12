@@ -239,5 +239,6 @@ export default function QualityPolicy() {
       <Testimonials />
       <Newsletter />
     </Layout>
+    </>
   );
 }
